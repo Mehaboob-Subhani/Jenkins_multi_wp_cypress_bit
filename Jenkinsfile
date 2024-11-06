@@ -57,9 +57,9 @@ pipeline {
         //             sshagent(credentials: [SSH_CREDENTIALS]) {
         //                 sh """
         //                 ssh -o StrictHostKeyChecking=no ubuntu@${SERVER_HOST} << EOF
-        //                 chmod -R 777 /var/www/securabio/server-scripts
-        //                 cd /var/www/securabio/server-scripts
-        //                 bash ./master_deploy_cypress_rollback_securabio.sh
+        //                 chmod -R 777 /var/www/prj/server-scripts
+        //                 cd /var/www/prj/server-scripts
+        //                 bash ./master_deploy_cypress_rollback_prj.sh
         //                 exit
         //                 EOF
         //                 """
